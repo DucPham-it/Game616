@@ -1,5 +1,5 @@
 #include "Character.h"
-class NPC {
+class NPC : Character {
 private:
     // The form of NPC
 public:

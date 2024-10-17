@@ -1,7 +1,7 @@
 #include "header/NPC.h"
 
-NPC::NPC() {
-
+NPC::NPC() : Character(name) {
+    name = "NPC";
 }
 
 NPC::~NPC() {

@@ -1,8 +1,6 @@
 #include "header/Character.h"
 
-Character::Character() {
-
-}
+Character::Character(string name) : name(name) {}
 
 Character::~Character() {
     

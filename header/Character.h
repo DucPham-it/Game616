@@ -1,11 +1,9 @@
 #include "main.h"
 
 class Character {
-private:
+protected:
     string name;
-    int hp;
-    int exp;
 public:
-    Character();
+    Character(string name = "");
     ~Character();
 };
