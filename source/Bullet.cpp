@@ -1,4 +1,4 @@
-#include "header/Bullet.h"
+#include "D:/Game/Files/Header/Bullet.h"
 
 Bullet::Bullet(typeBullet bul) : bul(bul) {
     damage = 0;
